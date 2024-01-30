@@ -1,7 +1,7 @@
 /*@media screen and (max-width: 768px) {*/
     body {
         background-color: var(--BG-1, #131619);
-        font-family: IBM Plex Mono, Ubuntu, monospace;
+        font-family: IBM Plex Mono, monospace;
         overflow-x: hidden;
         margin: 0 auto;
     }
@@ -364,7 +364,7 @@
     }
     .about-me-title span {
         color: var(--White, var(--White, #FFF));
-        font-family: Ubuntu;
+        font-family: Ubuntu, monospace;
         font-size: 2rem;
         font-style: normal;
         font-weight: 400;
@@ -424,7 +424,7 @@
         height: 100%;
         z-index: 1;
         opacity: 0.1;
-        background-image: url(index/ruby-code-bg-small.jpg);
+        background-image: url(../../img/index/ruby-code-bg-small.jpg);
         background-repeat: no-repeat;
         background-position: center bottom;
         background-size: cover;
@@ -452,7 +452,7 @@
     }
     .skills-title h3 {
         color: var(--Brand-1, #30F711);
-        font-family: Ubuntu;
+        font-family: Ubuntu, monospace;
         font-size: 4rem;
         font-style: normal;
         font-weight: 400;
@@ -463,7 +463,7 @@
         flex: 1 0 0;
         color: var(--White, var(--White, #FFF));
         text-align: center;
-        font-family: IBM Plex Mono;
+        font-family: IBM Plex Mono, monospace;
         font-size: 1rem;
         font-style: normal;
         font-weight: 400;
@@ -511,7 +511,7 @@
         width: 15rem;
         color: var(--BG-1, #131619);
         text-align: center;
-        font-family: IBM Plex Mono;
+        font-family: IBM Plex Mono, monospace;
         font-size: 1.5rem;
         font-style: normal;
         font-weight: 400;
@@ -521,7 +521,7 @@
     .skill-card-description {
         color: var(--Grey, #43454D);
         text-align: center;
-        font-family: IBM Plex Mono;
+        font-family: IBM Plex Mono, monospace;
         font-size: 1rem;
         font-style: normal;
         font-weight: 400;
@@ -574,7 +574,7 @@
         fill: #FFFFFF;
     }
     .skill-text {
-        font-family: IBM Plex Mono;
+        font-family: IBM Plex Mono, monospace;
         font-size: 2rem;
         font-style: normal;
         font-weight: 500;
@@ -620,7 +620,7 @@
     }
     .works-title-icon h4 {
         color: var(--Brand-1, #30F711);
-        font-family: Ubuntu;
+        font-family: Ubuntu, monospace;
         font-size: 4rem;
         font-style: normal;
         font-weight: 400;
@@ -631,7 +631,7 @@
         flex: 1 0 0;
         color: var(--White, var(--White, #FFF));
         text-align: center;
-        font-family: IBM Plex Mono;
+        font-family: IBM Plex Mono, monospace;
         font-size: 1rem;
         font-style: normal;
         font-weight: 400;
@@ -799,7 +799,7 @@
     }
     .contact-title-icon h5 {
         color: var(--Brand-1, #30F711);
-        font-family: Ubuntu;
+        font-family: Ubuntu, monospace;
         font-size: 4rem;
         font-style: normal;
         font-weight: 400;
@@ -810,7 +810,7 @@
         flex: 1 0 0;
         color: var(--White, var(--White, #FFF));
         text-align: center;
-        font-family: IBM Plex Mono;
+        font-family: IBM Plex Mono, monospace;
         font-size: 1rem;
         font-style: normal;
         font-weight: 400;
@@ -841,7 +841,7 @@
     .send-message-title h6 {
         color: var(--Brand-1, #30F711);
         text-align: center;
-        font-family: IBM Plex Mono;
+        font-family: IBM Plex Mono, monospace;
         font-size: 1.5rem;
         font-style: normal;
         font-weight: 400;
@@ -872,7 +872,7 @@
     }
     .send-messages-label {
         color: var(--Brand-1, #30F711);
-        font-family: Ubuntu;
+        font-family: Ubuntu, monospace;
         font-size: 1rem;
         font-style: normal;
         font-weight: 300;
@@ -880,7 +880,7 @@
     }
     .send-messages-input {
         color: var(--White, var(--White, #FFF));
-        font-family: Ubuntu;
+        font-family: Ubuntu, monospace;
         font-size: 1rem;
         font-style: normal;
         font-weight: 300;
@@ -897,7 +897,7 @@
     }
     .message-content-message > textarea {
         color: var(--White, var(--White, #FFF));
-        font-family: Ubuntu;
+        font-family: Ubuntu, monospace;
         font-size: 1rem;
         font-style: normal;
         font-weight: 300;
@@ -915,7 +915,7 @@
     }
     .form-submit-btn > span {
         color: var(--BG-1, #131619);
-        font-family: Ubuntu;
+        font-family: Ubuntu, monospace;
         font-size: 1.25rem;
         font-style: normal;
         font-weight: 400;
@@ -940,7 +940,7 @@
     }
     .footer-container {
         display: flex;
-        padding: 0rem 1.5rem;
+        padding: 0 1.5rem;
         flex-direction: column;
         align-items: center;
         gap: 1.5rem;
@@ -976,11 +976,11 @@
     }
     .footer-info p {
         color: var(--White, var(--White, #FFF));
-        font-family: Ubuntu;
+        font-family: Ubuntu, monospace;
         font-size: 1rem;
         font-style: normal;
         font-weight: 300;
-        line-height: 1.125rem; /* 112.5% */
+        line-height: 1.125rem;
     }
     .footer-info-policy {
         display: flex;
@@ -991,7 +991,7 @@
     .footer-design p {
         color: var(--White, var(--White, #FFF));
         text-align: center;
-        font-family: Ubuntu;
+        font-family: Ubuntu, monospace;
         font-size: 1rem;
         font-style: normal;
         font-weight: 300;

@@ -76,7 +76,7 @@
     }
     .hero-section-title {
         color: var(--Brand-2, #44FF27);
-        font-family: Ubuntu;
+        font-family: Ubuntu, monospace;
         font-size: 7.3125rem;
         font-style: normal;
         font-weight: 400;
