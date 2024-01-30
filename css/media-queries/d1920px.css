@@ -15,7 +15,6 @@
     .nav-button > p{
         display: inline;
         color: var(--White, var(--White, #FFF));
-        font-family: IBM Plex Mono;
         font-size: 1rem;
         font-style: normal;
         font-weight: 400;
