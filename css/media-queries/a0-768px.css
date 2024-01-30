@@ -764,11 +764,6 @@
         position: relative;
         z-index: 5;
     }
-    .works-content .item-desc {
-        padding: 0 14px 5px;
-        transform: translateY(calc(100% - 42px));
-        -webkit-transform: translateY(calc(100% - 42px));
-    }
     .contact {
         display: flex;
         padding: 4rem 1.5rem 2rem 1.5rem;
