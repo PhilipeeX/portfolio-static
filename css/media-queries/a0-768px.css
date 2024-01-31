@@ -861,11 +861,17 @@
         flex-direction: column;
         align-items: flex-start;
         gap: 1.5rem;
-        border-bottom: 1px solid var(--Brand-1);
         flex-shrink: 1;
         width: 100%;
     }
     .send-messages-label {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5rem;
+        border-bottom: 1px solid var(--Brand-1);
+        flex-shrink: 1;
+        width: 100%;
         color: var(--Brand-1, #30F711);
         font-family: Ubuntu, monospace;
         font-size: 1rem;
